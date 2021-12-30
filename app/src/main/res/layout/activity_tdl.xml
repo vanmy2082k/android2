@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ActivityTDL">
+
+
+    <TextView
+        android:id="@+id/mytext2"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giới thiệu thông tin cá nhân"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/teal_200"
+        />
+    <TextView
+        android:id="@+id/Name"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:text="Họ Tên : Nguyễn Văn Mỹ"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/Class"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:text="Lớp: K54.KMT01"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/mssv"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:text="MSSV: K185480106037"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/Age"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:text="Năm Sinh: 2000"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/Address"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:text="Hà Nội"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vm" />
+
+
+</LinearLayout>
